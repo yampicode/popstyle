@@ -165,13 +165,6 @@
             display: flex;
         }
         
-          .menu-toggle {
-            display: none;
-            background: transparent;
-            border: none;
-            cursor: pointer;
-        }
-        
         .menu-toggle span {
             font-size: 1.5em;
             transition: all 0.3s ease;
@@ -193,11 +186,6 @@
         .logo__footer {
           margin: 30px 0;
         }
-        
-        @media (max-width: 768px) {
-            .menu-toggle {
-                display: flex;
-            }
             
             .desktop-menu {
                 display: none;
@@ -278,3 +266,9 @@
         button[type="submit"]:hover {
             background-color: #e02e5a;
         }
+
+@media (width >= 960px) {
+.menu-toggle {
+            display: none;
+        }
+}
