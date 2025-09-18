@@ -166,8 +166,10 @@
         }
 
 .menu-toggle {
+display: block;
 border: none;
             cursor: pointer;
+background: transparent;
         }
         
         .menu-toggle span {
