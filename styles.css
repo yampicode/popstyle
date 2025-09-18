@@ -164,6 +164,11 @@
             transform: translateX(0);
             display: flex;
         }
+
+.menu-toggle {
+border: none;
+            cursor: pointer;
+        }
         
         .menu-toggle span {
             font-size: 1.5em;
@@ -267,7 +272,7 @@
             background-color: #e02e5a;
         }
 
-@media (width >= 960px) {
+@media (width >= 992px) {
 .menu-toggle {
             display: none;
         }
