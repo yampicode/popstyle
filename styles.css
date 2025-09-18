@@ -1,4 +1,4 @@
-       * {
+no       * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
@@ -196,6 +196,17 @@ z-index:1001;
         }
             
             
+        
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: flex;
+            }
+            
+            .desktop-menu {
+                display: none;
+            }
+        }
+       
         
         .booking-form {
             background-color: var(--light);
