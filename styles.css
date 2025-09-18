@@ -1,4 +1,4 @@
-no       * {
+       * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
@@ -133,7 +133,6 @@ no       * {
             align-items: center;
             justify-content: center;
             transition: all 0.3s ease;
-            text-decoration: none;
         }
         
         .whatsapp-float:hover {
@@ -165,7 +164,8 @@ no       * {
             transform: translateX(0);
             display: flex;
         }
-        .menu-toggle {
+        
+         /* .menu-toggle {
             display: none;
             flex-direction: column;
             justify-content: space-around;
@@ -174,14 +174,12 @@ no       * {
             background: transparent;
             border: none;
             cursor: pointer;
-            padding: 0;
-            z-index: 1001;
-        }
+        }*/
         
         .menu-toggle span {
             font-size: 1.5em;
             transition: all 0.3s ease;
-            z-index: 1000;
+            z-index: 100;
         }
         
         .menu-toggle.active span:nth-child(1) {
@@ -199,8 +197,6 @@ no       * {
         .logo__footer {
           margin: 30px 0;
         }
-            
-            
         
         @media (max-width: 768px) {
             .menu-toggle {
@@ -211,7 +207,6 @@ no       * {
                 display: none;
             }
         }
-       
         
         .booking-form {
             background-color: var(--light);
@@ -287,9 +282,3 @@ no       * {
         button[type="submit"]:hover {
             background-color: #e02e5a;
         }
-/*
-@media (width >= 992px) {
-.menu-toggle {
-            display: none;
-        }
-}*/
