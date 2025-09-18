@@ -287,9 +287,9 @@ no       * {
         button[type="submit"]:hover {
             background-color: #e02e5a;
         }
-
+/*
 @media (width >= 992px) {
 .menu-toggle {
             display: none;
         }
-}
+}*/
