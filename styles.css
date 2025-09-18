@@ -195,10 +195,7 @@ z-index:1001;
           margin: 30px 0;
         }
             
-            .desktop-menu {
-                display: none;
-            }
-        }
+            
         
         .booking-form {
             background-color: var(--light);
