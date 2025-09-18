@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es-ve">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+   <meta name="robots" content="index, follow">
+  <meta name="color-scheme" content="">
+  
+    <meta name="author" content="Yampiero Mujica">
+  <meta name="title" content="Barbería Pop Style">
+  <meta name="description" content="Barbería para caballeros y niños.">
+  <meta name="keywords" content="Barbería, cabello, barba, corte, estilo.">
+  
+  <!-- Apple -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Barbería Pop Style">
+  <meta name="format-detection" content="telephone=no, address=no, email=no">
+  <link rel="apple-touch-icon" href="/barberia.png" sizes="180x180">
+  <link rel="apple-touch-startup-image" href="/barberia.png">
+  
+    <!-- Open Graph (Facebook, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://barberia.vercel.app">
+  <meta property="og:title" content="barberia.com">
+  <meta property="og:description" content="Barbería Pop Style.">
+  <meta property="og:image" content="https://barberia.vercel.app/barberia.png">
+    <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Barbería">
+  <meta name="twitter:description" content="Barbería Pop Style.">
+  <meta name="twitter:image" content="https://barberia.vercel.app/barberia.png">
+    <link rel="shortcut icon" type="image/x-icon" href="barberia.png">
+  
+    <title>Barbería Pop Style - Puerto Cabello</title>
+    <!-- W3.CSS -->
+    <link rel="stylesheet" href="w3css.min.css">
+    
+        <!-- Estilos CSS -->
+       <link rel="stylesheet" href="styles.css">
+    
+        <link rel="stylesheet" href="fuentes.css">
+        
+    <!-- IcoFont -->
+    <link rel="stylesheet" href="icofont.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+          <!-- JS -->
+    <script defer src="menu.js" type="text/javascript" charset="utf-8"></script>
+    
+     <script defer src="form.js" type="text/javascript" charset="utf-8"></script>
+     
+      <script defer src="faq.js" type="text/javascript" charset="utf-8"></script>
+    
+</head>
+<body>
+    <!-- Header y Navegación -->
+    <header class="w3-top w3-white w3-card">
+        <div class="w3-container">
+            <div class=" w3-white navegacion">
+                <a href="#" class="w3-bar-item logo">POP<span style="color: var(--secondary);">STYLE</span></a>
+                <nav class="w3-right desktop-menu">
+                    <a href="#nosotros" class="w3-bar-item w3-button">Nosotros</a>
+                    <a href="#servicios" class="w3-bar-item w3-button">Servicios</a>
+                    <a href="#galeria" class="w3-bar-item w3-button">Galería</a>
+                    <a href="#testimonios" class="w3-bar-item w3-button">Testimonios</a>
+                    
+                    <a href="#contacto" class="w3-bar-item w3-button">Contacto</a
+                    <a href="#faq" class="w3-bar-item w3-button">FAQ</a>
+                </nav>
+                <button class="w3-button menu-toggle" aria-label="Abrir menú">
+                    <span class="icofont-navigation-menu"></span>
+                    
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Menú móvil -->
+    <nav class="mobile-menu" id="mobileMenu">
+        <a href="#nosotros" class="w3-button w3-xlarge w3-text-white" onclick="toggleMenu()">Nosotros</a>
+        <a href="#servicios" class="w3-button w3-xlarge w3-text-white" onclick="toggleMenu()">Servicios</a>
+        <a href="#galeria" class="w3-button w3-xlarge w3-text-white" onclick="toggleMenu()">Galería</a>
+        <a href="#testimonios" class="w3-button w3-xlarge w3-text-white" onclick="toggleMenu()">Testimonios</a>
+        
+        <a href="#contacto" class="w3-button w3-xlarge w3-text-white" onclick="toggleMenu()">Contacto</a>
+        <a href="#faq" class="w3-button w3-xlarge w3-text-white" onclick="toggleMenu()">FAQ</a>
+        
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="w3-container">
+            <h1 class="w3-xxxlarge">ESTILO QUE DEFINE TU ACTITUD</h1>
+            <p class="w3-large">La barbería donde la cultura pop se encuentra con el estilo clásico</p>
+            <a href="#reserva" class="w3-button w3-padding-large w3-margin-top w3-round" style="background-color: var(--primary); color: white;">Reserva Ahora</a>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="w3-container w3-padding-64">
+        <h2 class="section-title">Sobre Nosotros</h2>
+        <div class="w3-row-padding">
+            <div class="w3-half">
+                <p>En POPSTYLE Barbería, fusionamos lo mejor de la tradición barberil con la energía vibrante de la cultura pop actual. Nuestro espacio fue diseñado para que te sientas como en casa, rodeado de elementos que celebran tu personalidad única.</p>
+                <p>Nuestro equipo de barberos profesionales está en constante formación para ofrecerte los cortes y estilos más modernos, siempre con la calidad y precisión que mereces.</p>
+                <p>Más que una barbería, somos un punto de encuentro para quienes buscan expresar su identidad a través de un estilo que rompe con lo convencional.</p>
+            </div>
+            <div class="w3-half">
+                <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80" alt="Interior de la barbería" class="w3-round w3-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios" class="w3-container w3-padding-64 w3-light-grey">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <div class="w3-row-padding">
+            <div class="w3-third">
+                <div class="service-card w3-white w3-card">
+                    <div class="w3-container">
+                        <h3 class="w3-center"><i class="icofont-scissors"></i> Corte de Cabello</h3>
+                        <p>Estilo personalizado según tu rostro, personalidad y tendencias actuales. Incluye lavado y acabado profesional.</p>
+                        <p class="w3-center"><b>Precio: $15</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-third">
+                <div class="service-card w3-white w3-card">
+                    <div class="w3-container">
+                        <h3 class="w3-center"><i class="icofont-beard"></i> Arreglo de Barba</h3>
+                        <p>Modelado, recorte y delineado profesional de barba. Incluye mascarilla nutritiva y acabado con productos premium.</p>
+                        <p class="w3-center"><b>Precio: $12</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-third">
+                <div class="service-card w3-white w3-card">
+                    <div class="w3-container">
+                        <h3 class="w3-center"><i class="icofont-business-man"></i> Corte + Barba</h3>
+                        <p>Combo completo que incluye corte de cabello y arreglo de barba. Perfecto para una renovación integral.</p>
+                        <p class="w3-center"><b>Precio: $24</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Galería -->
+    <section id="galeria" class="w3-container w3-padding-64">
+        <h2 class="section-title">Galería</h2>
+        <div class="w3-row-padding gallery">
+            <div class="w3-third w3-margin-bottom">
+                <img src="img__1.jpg" title="Foto de RDNE Stock project." alt="Corte moderno" class="w3-image w3-hover-opacity">
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <img src="img__2.jpg" alt="hombre-vestido-con-camisa-negra-recortando-el-cabello-del-hombre" title="Foto de Jose Ricardo Barraza Morachis." class="w3-image w3-hover-opacity">
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <img src="img__3.jpg" title="Foto de cottonbro studio." alt="Estilo urbano" class="w3-image w3-hover-opacity">
+            </div>
+            <div class="w3-third w3-margin-bottom">
+                <img src="https://images.unsplash.com/photo-1622288432450-277d0fef5ed6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Barbero trabajando" class="w3-image w3-hover-opacity">
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Sección Testimonios -->
+    <section id="testimonios" class="w3-container w3-padding-64 w3-light-grey">
+        <h2 class="section-title">Testimonios</h2>
+        <div class="w3-row-padding">
+            <div class="w3-half">
+                <div class="testimonial">
+                    <p>"La mejor barbería de Puerto Cabello. Siempre salgo con un corte que refleja exactamente lo que quería. El ambiente es increíble, lleno de energía positiva."</p>
+                    <p><b>- Carlos Rodríguez</b></p>
+                </div>
+                <div class="testimonial">
+                    <p>"No solo me hicieron un excelente trabajo con mi barba, sino que me aconsejaron sobre cómo mantenerla. Ahora solo confío en ellos para mi look."</p>
+                    <p><b>- Miguel Torres</b></p>
+                </div>
+            </div>
+            <div class="w3-half">
+                <div class="testimonial">
+                    <p>"Llevo a mi hijo adolescente y siempre queda feliz con su corte. Los barberos saben exactamente qué está de moda entre los jóvenes."</p>
+                    <p><b>- Elena Martínez</b></p>
+                </div>
+                <div class="testimonial">
+                    <p>"Más que un servicio, es una experiencia. Me encanta la decoración con temas de cultura pop y la música que ponen. ¡Siempre regreso!"</p>
+                    <p><b>- Javier Rojas</b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección FAQ -->
+    <section id="faq" class="w3-container w3-padding-64">
+        <h2 class="section-title">Preguntas Frecuentes</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    ¿Necesito reservar con anticipación? <i class="icofont-plus"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Recomendamos hacer reserva con al menos 24 horas de anticipación, especialmente los fines de semana. Aunque atendemos walk-ins, subject to availability.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    ¿Qué métodos de pago aceptan? <i class="icofont-plus"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Aceptamos efectivo, transferencias bancarias, tarjetas de débito y crédito, y pagos móviles como PayPal y Zelle.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    ¿Atienden niños? <i class="icofont-plus"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>¡Por supuesto! Tenemos precios especiales para niños menores de 12 años y nuestros barberos están especializados en cortes infantiles que les encantarán.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleFaq(this)">
+                    ¿Tienen productos para el cuidado en casa? <i class="icofont-plus"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Sí, contamos con una línea de productos premium para el cuidado capilar y de barba, seleccionados cuidadosamente para garantizar los mejores resultados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="w3-container w3-padding-64 w3-light-grey">
+        <h2 class="section-title">Contacto</h2>
+        <div class="w3-row-padding">
+            <div class="w3-half">
+                <div class="w3-container">
+                    <p><i class="icofont-google-map"></i> <b>Dirección:</b> Av. Principal, Puerto Cabello, Estado Carabobo, Venezuela</p>
+                    <p><i class="icofont-phone"></i> <b>Teléfono:</b> +58 412-0348988</p>
+                    <p><i class="icofont-clock-time"></i> <b>Horario:</b> Lunes a Sábado: 9:00 AM - 7:00 PM</p>
+                    <div class="w3-margin-top">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.105212376445!2d-68.01289922504607!3d10.47388806490715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e80659e5c2c8d6d%3A0x1e47e3a6c31c60c3!2sPuerto%20Cabello%2C%20Carabobo%2C%20Venezuela!5e0!3m2!1sen!2sus!4v1645123456789!5m2!1sen!2sus" width="100%" height="300" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-half">
+                <div class="booking-form" id="reserva">
+                    <h3>Reserva tu Cita</h3>
+                    <form id="reservationForm" onsubmit="submitForm(event)">
+                        <div class="w3-section">
+                            <label>Nombre completo</label>
+                            <input class="w3-input w3-border" type="text" name="name" required>
+                        </div>
+                        <div class="w3-section">
+                            <label>Teléfono</label>
+                            <input class="w3-input w3-border" type="tel" name="phone" required>
+                        </div>
+                        <div class="w3-section">
+                            <label>Email</label>
+                            <input class="w3-input w3-border" type="email" name="email">
+                        </div>
+                        <div class="w3-section">
+                            <label>Servicio</label>
+                            <select class="w3-select w3-border" name="service" required>
+                                <option value="" disabled selected>Elige un servicio</option>
+                                <option value="Corte de Cabello">Corte de Cabello</option>
+                                <option value="Arreglo de Barba">Arreglo de Barba</option>
+                                <option value="Corte + Barba">Corte + Barba</option>
+                                <option value="Otro">Otro servicio</option>
+                            </select>
+                        </div>
+                        <div class="w3-section">
+                            <label>Fecha preferida</label>
+                            <input class="w3-input w3-border" type="date" name="date" required>
+                        </div>
+                        <div class="w3-section">
+                            <label>Mensaje adicional (opcional)</label>
+                            <textarea class="w3-input w3-border" name="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="w3-button w3-block w3-round" style="background-color: var(--primary); color: white;">Enviar Reserva</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/584120348988?text=Hola,%20me%20interesa%20saber%20más%20sobre%20sus%20servicios" class="whatsapp-float" target="_blank" aria-label="Chatear por WhatsApp">
+        <span class="icofont-whatsapp"></span>
+    </a>
+
+    <!-- Footer -->
+    <footer class="w3-center">
+        <div class="w3-container">
+          <div class="logo__footer">
+                            <a href="#" class="w3-bar-item logo icofont-3x">POP<span style="color: var(--secondary);">STYLE</span></a>
+          </div>
+            <div class="social-icons w3-margin-bottom">
+                <a href="#" aria-label="Facebook"><i class="icofont-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="icofont-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="icofont-x"></i></a>
+                <a href="https://wa.me/584120348988" target="_blank" aria-label="WhatsApp"><i class="icofont-whatsapp"></i></a>
+            </div>
+            <p>© 2025 POPSTYLE Barbería. Todos los derechos reservados.</p>
+            <p>Desarrollado por Yampiero Mujica - WEBZONA</p>
+        </div>
+    </footer>
+</body>
+</html>
