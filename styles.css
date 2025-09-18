@@ -284,7 +284,7 @@
         }
 
 @media (width >= 992px) {
-.menu-toggle {
+.menu-toggle span {
 display: none;
 }
 }
