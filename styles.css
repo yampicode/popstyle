@@ -133,6 +133,7 @@ no       * {
             align-items: center;
             justify-content: center;
             transition: all 0.3s ease;
+            text-decoration: none;
         }
         
         .whatsapp-float:hover {
@@ -166,7 +167,7 @@ no       * {
         }
 
 .menu-toggle {
-display: flex;
+display: none;
 border: none;
             cursor: pointer;
 background: transparent;
